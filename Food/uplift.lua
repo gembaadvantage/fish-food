@@ -1,5 +1,5 @@
 local name = "uplift"
-local version = "2.3.0"
+local version = "2.4.0"
 
 food = {
     name = name,
@@ -9,23 +9,10 @@ food = {
     version = version,
     packages = {
         {
-            os = "darwin",
-            arch = "amd64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.3.0/uplift_2.3.0_darwin-x86_64.tar.gz",
-            sha256 = "d479201b359e800be8dd2df9229d193a9fdb69f792e766c67660632f3f8911f3",
-            resources = {
-                {
-                    path = "uplift",
-                    installpath = "bin/uplift",
-                    executable = true
-                },
-            }
-        },
-        {
             os = "windows",
             arch = "arm64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.3.0/uplift_2.3.0_windows-arm64.zip",
-            sha256 = "9d1c64c460aa981a5eba95ca64492102b2a2d3ad2eeb300a48fa7451a64431c0",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.0/uplift_2.4.0_windows-arm64.zip",
+            sha256 = "3fcf1e29b8b6a01dad3294ef0069da13a6bf9922ea6c02fc04e324ecb7e0224f",
             resources = {
                 {
                     path = "uplift.exe",
@@ -36,33 +23,8 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.3.0/uplift_2.3.0_darwin-arm64.tar.gz",
-            sha256 = "40b3b00a44270f5d443cfa8c06ba841f4d45f46352fc35f6778d77eb92080b5a",
-            resources = {
-                {
-                    path = "uplift",
-                    installpath = "bin/uplift",
-                    executable = true
-                },
-            }
-        },
-        {
-            os = "windows",
-            arch = "amd64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.3.0/uplift_2.3.0_windows-x86_64.zip",
-            sha256 = "afa241cb11756c55bd81ee0651d122f0dcac0f0ac2020eaa637534b0247390a4",
-            resources = {
-                {
-                    path = "uplift.exe",
-                    installpath = "bin\\uplift.exe",
-                },
-            }
-        },
-        {
-            os = "linux",
-            arch = "amd64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.3.0/uplift_2.3.0_linux-x86_64.tar.gz",
-            sha256 = "64f44ecc8b70335a63e9d817399814a5e5ffbe012827a27847507e1c93371192",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.0/uplift_2.4.0_darwin-arm64.tar.gz",
+            sha256 = "803bae6111d9057f20ffc5abf49993f55e19dac489fc5989a992d16e2d1c196a",
             resources = {
                 {
                     path = "uplift",
@@ -74,13 +36,51 @@ food = {
         {
             os = "linux",
             arch = "arm64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.3.0/uplift_2.3.0_linux-arm64.tar.gz",
-            sha256 = "b3baba8d02347340571e5d8d6c84b1b2c470e4ce15f9169bbf476c87684da953",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.0/uplift_2.4.0_linux-arm64.tar.gz",
+            sha256 = "ec68e955db6ae36aa8d0a56802a42b3aaf434171c9273984f68744a51a43e8e5",
             resources = {
                 {
                     path = "uplift",
                     installpath = "bin/uplift",
                     executable = true
+                },
+            }
+        },
+        {
+            os = "linux",
+            arch = "amd64",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.0/uplift_2.4.0_linux-x86_64.tar.gz",
+            sha256 = "1d9963622472ab87299c14c47842131e3eb40479ddb7c169cf15ce3b8d5721dc",
+            resources = {
+                {
+                    path = "uplift",
+                    installpath = "bin/uplift",
+                    executable = true
+                },
+            }
+        },
+        {
+            os = "darwin",
+            arch = "amd64",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.0/uplift_2.4.0_darwin-x86_64.tar.gz",
+            sha256 = "eaf139ac45c62c0c05f9e3be01cc3918b2dfe5a4aad8a837fbf16d34c2c31348",
+            resources = {
+                {
+                    path = "uplift",
+                    installpath = "bin/uplift",
+                    executable = true
+                },
+            }
+        },
+        {
+            os = "windows",
+            arch = "amd64",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.0/uplift_2.4.0_windows-x86_64.zip",
+            sha256 = "4a8da8e668dc4179b8f180ac78921e5321d44d8db7c6ea384e5c6508a139dbae",
+            resources = {
+                {
+                    path = "uplift.exe",
+                    installpath = "bin\\uplift.exe",
                 },
             }
         },
