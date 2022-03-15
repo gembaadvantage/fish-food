@@ -1,5 +1,5 @@
 local name = "octo"
-local version = "0.3.0"
+local version = "0.4.0"
 
 food = {
     name = name,
@@ -9,10 +9,10 @@ food = {
     version = version,
     packages = {
         {
-            os = "darwin",
+            os = "linux",
             arch = "arm64",
-            url = "https://github.com/gembaadvantage/octo/releases/download/v0.3.0/octo_0.3.0_darwin-arm64.tar.gz",
-            sha256 = "f74989b1d292a7f5221b446045dc7dbd6c7e40bdd6510c5fe5de064982843f60",
+            url = "https://github.com/gembaadvantage/octo/releases/download/v0.4.0/octo_0.4.0_linux-arm64.tar.gz",
+            sha256 = "d43e1b826b2776a3836c4ac401e901f3da1aa2ad4e6379059b12d82d1da716ad",
             resources = {
                 {
                     path = "octo",
@@ -22,10 +22,10 @@ food = {
             }
         },
         {
-            os = "linux",
-            arch = "amd64",
-            url = "https://github.com/gembaadvantage/octo/releases/download/v0.3.0/octo_0.3.0_linux-amd64.tar.gz",
-            sha256 = "80779428f2b2fc5e315c6c4e07b7b42bf549f82be1fd9688a63c5d719497912e",
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/gembaadvantage/octo/releases/download/v0.4.0/octo_0.4.0_darwin-arm64.tar.gz",
+            sha256 = "d0f40364b693bb5f3037567b85cc39717ed659661a4d5f7a561ae5bce3526126",
             resources = {
                 {
                     path = "octo",
@@ -37,8 +37,20 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/gembaadvantage/octo/releases/download/v0.3.0/octo_0.3.0_windows-amd64.zip",
-            sha256 = "4b4ae74230b8295d6214fdef42f0b6fe69144a22b807d784eec80e7593642d58",
+            url = "https://github.com/gembaadvantage/octo/releases/download/v0.4.0/octo_0.4.0_windows-amd64.zip",
+            sha256 = "843f4cc27c0416e248a6b3ba6fe6ee84007e54b183428813701620bc53e36ffd",
+            resources = {
+                {
+                    path = "octo.exe",
+                    installpath = "bin\\octo.exe",
+                },
+            }
+        },
+        {
+            os = "windows",
+            arch = "arm64",
+            url = "https://github.com/gembaadvantage/octo/releases/download/v0.4.0/octo_0.4.0_windows-arm64.zip",
+            sha256 = "115e0c46423dacc5f201a2ae95952060b8b3e4a6559f1050fe1db9c309859d90",
             resources = {
                 {
                     path = "octo.exe",
@@ -48,9 +60,9 @@ food = {
         },
         {
             os = "linux",
-            arch = "arm64",
-            url = "https://github.com/gembaadvantage/octo/releases/download/v0.3.0/octo_0.3.0_linux-arm64.tar.gz",
-            sha256 = "dcf214a7e2eede8bed081a6f1fbf230d0380a40bad684193ee05c112822db194",
+            arch = "amd64",
+            url = "https://github.com/gembaadvantage/octo/releases/download/v0.4.0/octo_0.4.0_linux-amd64.tar.gz",
+            sha256 = "e3f49ad835e9cba07aab932b88f5339ded6b071adbcb194a64e1f75e9cc34b09",
             resources = {
                 {
                     path = "octo",
@@ -62,25 +74,13 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/gembaadvantage/octo/releases/download/v0.3.0/octo_0.3.0_darwin-amd64.tar.gz",
-            sha256 = "edc34bb951cf3b7909c561e8f74c9d0abee908bf797e1de53380276d82021f31",
+            url = "https://github.com/gembaadvantage/octo/releases/download/v0.4.0/octo_0.4.0_darwin-amd64.tar.gz",
+            sha256 = "e863d62be5281a28f2172d290dc55feedd34649b7099cff9b0ebb40d0d17f6c1",
             resources = {
                 {
                     path = "octo",
                     installpath = "bin/octo",
                     executable = true
-                },
-            }
-        },
-        {
-            os = "windows",
-            arch = "arm64",
-            url = "https://github.com/gembaadvantage/octo/releases/download/v0.3.0/octo_0.3.0_windows-arm64.zip",
-            sha256 = "0b6885b22d76d96d60e1493ccbb1b54d9017139cbc8148b19f414c256a200fd6",
-            resources = {
-                {
-                    path = "octo.exe",
-                    installpath = "bin\\octo.exe",
                 },
             }
         },
