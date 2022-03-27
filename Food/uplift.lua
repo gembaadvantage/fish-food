@@ -1,5 +1,5 @@
 local name = "uplift"
-local version = "2.4.1"
+local version = "2.4.2"
 
 food = {
     name = name,
@@ -11,8 +11,8 @@ food = {
         {
             os = "windows",
             arch = "arm64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.1/uplift_2.4.1_windows-arm64.zip",
-            sha256 = "1ea73d3419cb4c69fdc2ba04dcf2456985a3f3842f487bd4e867e6a5b89ebca1",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.2/uplift_2.4.2_windows-arm64.zip",
+            sha256 = "f263e3dbb53fda354ab5387a0291115d82363b01cc5993b0299b87dba8a59cab",
             resources = {
                 {
                     path = "uplift.exe",
@@ -23,8 +23,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.1/uplift_2.4.1_windows-x86_64.zip",
-            sha256 = "01a3b918ffe1bb1d6410f098da014d176bd91699cfeb89597bdf35f7033cac26",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.2/uplift_2.4.2_windows-x86_64.zip",
+            sha256 = "391a1a00f4a0ec350e122084d3c55dc0e204eed47f837ff0bd1794fa7293c8b6",
             resources = {
                 {
                     path = "uplift.exe",
@@ -35,8 +35,8 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.1/uplift_2.4.1_darwin-arm64.tar.gz",
-            sha256 = "ea0d92dbe202a9de1113d67e87e2a61712a487f463d29e6cde9c27dd21f66744",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.2/uplift_2.4.2_darwin-arm64.tar.gz",
+            sha256 = "b8855fc1f385212256489799ed8a73507d0e24ee4ccfdaff2e888d2b0af5c23d",
             resources = {
                 {
                     path = "uplift",
@@ -48,21 +48,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.1/uplift_2.4.1_linux-x86_64.tar.gz",
-            sha256 = "8d8f2f8ce6f2db3ba925c3e3fd33fca702daa8034ce9ba9ead927ba7f6718746",
-            resources = {
-                {
-                    path = "uplift",
-                    installpath = "bin/uplift",
-                    executable = true
-                },
-            }
-        },
-        {
-            os = "darwin",
-            arch = "amd64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.1/uplift_2.4.1_darwin-x86_64.tar.gz",
-            sha256 = "488b4bc6387a5f6144f0a3ef088845dd0286aea1cb0933c3adebba1a0d9a0e14",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.2/uplift_2.4.2_linux-x86_64.tar.gz",
+            sha256 = "3f696dd8b31ea479dcfcce433de0bfa1c1775ac1397f027182aa32ec4a3042f0",
             resources = {
                 {
                     path = "uplift",
@@ -74,8 +61,21 @@ food = {
         {
             os = "linux",
             arch = "arm64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.1/uplift_2.4.1_linux-arm64.tar.gz",
-            sha256 = "099fcc330e5029a6688c862eda7a488eee39956046902440be3cb6fb0062da2a",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.2/uplift_2.4.2_linux-arm64.tar.gz",
+            sha256 = "2bd0310874f30716ed61b6319d0bcbd3d2767abcaa86831c31378f067ece4f23",
+            resources = {
+                {
+                    path = "uplift",
+                    installpath = "bin/uplift",
+                    executable = true
+                },
+            }
+        },
+        {
+            os = "darwin",
+            arch = "amd64",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.4.2/uplift_2.4.2_darwin-x86_64.tar.gz",
+            sha256 = "ab6aec0fb9a7498024c7ad3046b1025c7c02aacce21e0979999f7910d6aaa1a9",
             resources = {
                 {
                     path = "uplift",
