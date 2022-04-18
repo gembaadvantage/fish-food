@@ -1,5 +1,5 @@
 local name = "uplift"
-local version = "2.6.1"
+local version = "2.6.2"
 
 food = {
     name = name,
@@ -9,10 +9,22 @@ food = {
     version = version,
     packages = {
         {
+            os = "windows",
+            arch = "arm64",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.2/uplift_2.6.2_windows-arm64.zip",
+            sha256 = "0e456372a7ef930fff31b634e7594ea16faad511539182687f548486a094bd7c",
+            resources = {
+                {
+                    path = "uplift.exe",
+                    installpath = "bin\\uplift.exe",
+                },
+            }
+        },
+        {
             os = "darwin",
-            arch = "amd64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.1/uplift_2.6.1_darwin-x86_64.tar.gz",
-            sha256 = "6adb4705b573896417efa3929d4b2a0ca47b9d0f6cdaad0df3479fcb8d3f14a6",
+            arch = "arm64",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.2/uplift_2.6.2_darwin-arm64.tar.gz",
+            sha256 = "a20da07753108909606b63ffad0e3e91da911629daa589a26a613b9569a4ed3c",
             resources = {
                 {
                     path = "uplift",
@@ -22,10 +34,10 @@ food = {
             }
         },
         {
-            os = "darwin",
-            arch = "arm64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.1/uplift_2.6.1_darwin-arm64.tar.gz",
-            sha256 = "8c450c2d1fa08babc930da73a14f0d2778d017c52664be1a00e5e1405d5f6be1",
+            os = "linux",
+            arch = "amd64",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.2/uplift_2.6.2_linux-x86_64.tar.gz",
+            sha256 = "809532b8c56514d597a443ee33feab2cccfd8b026167e3790a8f3c77dc82c41b",
             resources = {
                 {
                     path = "uplift",
@@ -37,8 +49,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.1/uplift_2.6.1_windows-x86_64.zip",
-            sha256 = "0b5298758ccd0ab4c9ead637c31b54ee59eaa965ccbfd5971a61339152f5c0ae",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.2/uplift_2.6.2_windows-x86_64.zip",
+            sha256 = "0f2fe4afb13051006b21f4b8f7e42fd46837e993c018d9bb3cc5868c45b8d9bd",
             resources = {
                 {
                     path = "uplift.exe",
@@ -47,10 +59,10 @@ food = {
             }
         },
         {
-            os = "linux",
+            os = "darwin",
             arch = "amd64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.1/uplift_2.6.1_linux-x86_64.tar.gz",
-            sha256 = "5adbdb1ba797b5fea71c170b247f3bedab17b0e4101b86ce911ba04d471a9ae3",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.2/uplift_2.6.2_darwin-x86_64.tar.gz",
+            sha256 = "95a5c6192816ec4980bc071a93b1c8016967d6ccf68ad6354b7b352af12960ac",
             resources = {
                 {
                     path = "uplift",
@@ -60,22 +72,10 @@ food = {
             }
         },
         {
-            os = "windows",
-            arch = "arm64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.1/uplift_2.6.1_windows-arm64.zip",
-            sha256 = "b2a9347a0f8bbfc7f51196bf878f833666a494078fd6a96f73b89158b519e3b6",
-            resources = {
-                {
-                    path = "uplift.exe",
-                    installpath = "bin\\uplift.exe",
-                },
-            }
-        },
-        {
             os = "linux",
             arch = "arm64",
-            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.1/uplift_2.6.1_linux-arm64.tar.gz",
-            sha256 = "6bc1f962129b3e9cd820c5bad77a350fb226395d34d3a31c02bff2306ae7a8cc",
+            url = "https://github.com/gembaadvantage/uplift/releases/download/v2.6.2/uplift_2.6.2_linux-arm64.tar.gz",
+            sha256 = "c5b0e238315229928a39bfa6ec270fdb1554c5b2a1c6a297e29b311e4c025fad",
             resources = {
                 {
                     path = "uplift",
