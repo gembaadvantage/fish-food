@@ -12,49 +12,11 @@ food = {
             os = "windows",
             arch = "arm64",
             url = "https://github.com/gembaadvantage/codecommit-sign/releases/download/v1.3.1/codecommit-sign_1.3.1_windows-arm64.zip",
-            sha256 = "c335339f15e84d2b03de562adca0a5e00e9931db6ce76a49f162032b9469d5fd",
+            sha256 = "88c8b582b74158759c48e600b5899215c812abdb1adb6bd7edbdd49fbc2f5c1e",
             resources = {
                 {
                     path = "codecommit-sign.exe",
                     installpath = "bin\\codecommit-sign.exe",
-                },
-            }
-        },
-        {
-            os = "linux",
-            arch = "amd64",
-            url = "https://github.com/gembaadvantage/codecommit-sign/releases/download/v1.3.1/codecommit-sign_1.3.1_linux-x86_64.tar.gz",
-            sha256 = "c68cb734c306bd1da161f0115ec529b4bcdd331297bbab6139cf1bc1a68f9894",
-            resources = {
-                {
-                    path = "codecommit-sign",
-                    installpath = "bin/codecommit-sign",
-                    executable = true
-                },
-            }
-        },
-        {
-            os = "windows",
-            arch = "amd64",
-            url = "https://github.com/gembaadvantage/codecommit-sign/releases/download/v1.3.1/codecommit-sign_1.3.1_windows-x86_64.zip",
-            sha256 = "9ad4d3781f15f0fe47ca959e07730a7707114c6394f1bf06190d2cac0b8035ea",
-            resources = {
-                {
-                    path = "codecommit-sign.exe",
-                    installpath = "bin\\codecommit-sign.exe",
-                },
-            }
-        },
-        {
-            os = "darwin",
-            arch = "arm64",
-            url = "https://github.com/gembaadvantage/codecommit-sign/releases/download/v1.3.1/codecommit-sign_1.3.1_darwin-arm64.tar.gz",
-            sha256 = "d21df149560dbce707ac05fb02615a3570f8f18e917f722e2dbe783c6c066691",
-            resources = {
-                {
-                    path = "codecommit-sign",
-                    installpath = "bin/codecommit-sign",
-                    executable = true
                 },
             }
         },
@@ -62,7 +24,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/gembaadvantage/codecommit-sign/releases/download/v1.3.1/codecommit-sign_1.3.1_linux-arm64.tar.gz",
-            sha256 = "f697c679ca44d6228c560866d43eda4d4fd7cb6bead465f607e55245c971ea56",
+            sha256 = "246397941c74e3fcc264ceab65d75439b2493876ae1aa2ba5b1bcd6c37baed0f",
             resources = {
                 {
                     path = "codecommit-sign",
@@ -75,7 +37,45 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gembaadvantage/codecommit-sign/releases/download/v1.3.1/codecommit-sign_1.3.1_darwin-x86_64.tar.gz",
-            sha256 = "76aed2db0df1cfac07cddd9f2ad53ff92c34b92a471355f9ef27afba9ebc61f5",
+            sha256 = "736047af3ceedceff49587d052b4bd733acf033e3a2063e805d3a081aa056249",
+            resources = {
+                {
+                    path = "codecommit-sign",
+                    installpath = "bin/codecommit-sign",
+                    executable = true
+                },
+            }
+        },
+        {
+            os = "windows",
+            arch = "amd64",
+            url = "https://github.com/gembaadvantage/codecommit-sign/releases/download/v1.3.1/codecommit-sign_1.3.1_windows-x86_64.zip",
+            sha256 = "5fa10334f96021393427d2d674ab70112fbfccce4e507d4d84c6c839506edc4a",
+            resources = {
+                {
+                    path = "codecommit-sign.exe",
+                    installpath = "bin\\codecommit-sign.exe",
+                },
+            }
+        },
+        {
+            os = "linux",
+            arch = "amd64",
+            url = "https://github.com/gembaadvantage/codecommit-sign/releases/download/v1.3.1/codecommit-sign_1.3.1_linux-x86_64.tar.gz",
+            sha256 = "0172331620f5ab218e44182128e5909a809db285098c628700df6f455a6b617a",
+            resources = {
+                {
+                    path = "codecommit-sign",
+                    installpath = "bin/codecommit-sign",
+                    executable = true
+                },
+            }
+        },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/gembaadvantage/codecommit-sign/releases/download/v1.3.1/codecommit-sign_1.3.1_darwin-arm64.tar.gz",
+            sha256 = "fe973e2d3bc58cf0d92c1f4ff2f8e1ef1372c5c8f1facddab7be79d6469192ec",
             resources = {
                 {
                     path = "codecommit-sign",
